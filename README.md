@@ -1,2 +1,1 @@
-# electric-power-management-system
-project in system design 
+#this app uses python language and flet library

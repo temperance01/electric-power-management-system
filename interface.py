@@ -12,7 +12,7 @@ def login_page(page: ft.Page):
     t = ft.Text(value="Hello, world!", color="green")
     page.controls.append(t)
 
-    ft.page.update()
+    page.update()
     
 
-flet.app(target=login_page)
+ft.app(target=login_page)

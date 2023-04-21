@@ -8,6 +8,10 @@ flet website: https://flet.dev
 = HOW TO SETUP BEFORE CODING =
 how to download python in VS Code: https://www.youtube.com/watch?v=cUAK4x_7thA
 
+how to download git: https://www.youtube.com/watch?v=4xqVv2lTo40
+
+how to connect github repository to vscode: https://www.youtube.com/watch?v=lYiE5lBS13E
+
 how to install pip: https://www.youtube.com/watch?v=Ko9b_vC6XY0
 
 how to install flet in pip: https://www.youtube.com/watch?v=paRXeLurjE4

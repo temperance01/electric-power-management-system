@@ -6,4 +6,3 @@ import interface
 
 interface.login_page()
 
-

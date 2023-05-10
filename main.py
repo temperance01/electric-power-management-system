@@ -1,3 +1,15 @@
+#main page
+"""
+note to self: wag na mag procrastinate pls 
+
+diary: |||
+
+day 1: okay naman medyo gets ko kaso nalilito lang ako ng konti sa ibang syntax
+day 2: pano mag center huhuhuh
+day 3:
+"""
+
+
 import flet as ft
 from flet import *
 from navigation import interface
@@ -18,6 +30,7 @@ def main(page: ft.Page):
          interface(page)[page.route]   
       )
 
+    #goto login first
     page.on_route_change = route_change
     page.go('/login')
 

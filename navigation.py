@@ -1,11 +1,16 @@
+#navigation 
+"""
+this is where navigation happens :o
+"""
+
 from flet import *
 from home import Home
 from login import Login
 
 def interface(page):
   return {
-    '/':View(
-        route='/',
+    '/home':View(
+        route='/home',
         controls=[
           Home(page)
         ]

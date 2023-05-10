@@ -1,3 +1,11 @@
+#HOME PAGE
+"""
+todo list
+1. add widgets
+2. connect to other modules 
+3. other functions
+4. maybe add separate pages for other fucntions?
+"""
 from flet import *
 class Home(UserControl):
   def __init__(self,page):
@@ -9,8 +17,8 @@ class Home(UserControl):
       controls=[
         Container(
           height=530,width=270,
-          bgcolor='red',
           border_radius=35,
+          bgcolor='red',
           content=Column(
             controls=[
               Text('Welcome to the homepage'),

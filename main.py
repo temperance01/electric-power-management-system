@@ -18,7 +18,7 @@ from navigation import interface
 def main(page: ft.Page):
     #initialize primary properties
     page.title = "EPM System"
-    page.vertical_alignment = "center"
+    page.vertical_alignment = "CENTER"
     page.window_height = 600
     page.window_width = 300
 
@@ -32,9 +32,11 @@ def main(page: ft.Page):
 
     #goto login first
     page.on_route_change = route_change
-    page.go('/login')
+    page.go('/home')
 
     page.update()
-   
+
+# just change to (target=main, view=ft.WEB_BROWSER) to open it to browser :)
 ft.app(target=main)
+
 

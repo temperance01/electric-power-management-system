@@ -21,13 +21,13 @@ class Home(UserControl):
           bgcolor='red',
           content=Column(
             controls=[
-              Text('Welcome to the homepage'),
               Container(
                 on_click= lambda _: self.page.go('/login') ,
-                content=Text('Goto Login',size=25,color='black')
+                content=Text('Goto Login',size=25,color='black')  
               )
             ]
           )
           )
         ]
     )
+  

@@ -31,6 +31,7 @@ class Login(UserControl):
             content=Column(
             
             controls=[
+              #for spacing
             Container(
                 Text(' '),
                 alignment=alignment.center,
@@ -41,15 +42,15 @@ class Login(UserControl):
             Container(
                 Text('Login Page', size=20, weight='BOLD', color='black'),
                 alignment=alignment.center,
-        
             ),
+            #username
             Container(
-                TextField(label="Username", width=150, height=50, border_radius=35, color='black'),
+                TextField(label="Username", width=170, height=60, border_radius=35, color='black'),
                 alignment=alignment.center,
-        
             ),
+            #password
             Container(
-                TextField(label="Password", width=150, height=50, border_radius=35, color='black' ,
+                TextField(label="Password", width=170, height=60, border_radius=35, color='black' ,
                       password=True, can_reveal_password=True),
                 alignment=alignment.center,
         
